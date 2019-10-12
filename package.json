@@ -1,6 +1,24 @@
 {
   "name": "roman-to-arabic",
   "version": "1.0.0",
-  "main": "index.js",
-  "license": "MIT"
+  "main": "server.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "jest --coverage",
+    "lint": "eslint . --fix"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "roman-to-arabic-numerals": "^1.0.2"
+  },
+  "devDependencies": {
+    "eslint": "^6.5.1",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jest": "^22.19.0",
+    "jest": "^24.9.0",
+    "nodemon": "^1.19.3",
+    "supertest": "^4.0.2"
+  }
 }
