@@ -9,7 +9,7 @@
     "lint": "eslint . --fix"
   },
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "roman-to-arabic-numerals": "^1.0.2"
   },
   "devDependencies": {
